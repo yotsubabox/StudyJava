@@ -12,15 +12,14 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-          <webXml>/etc/tomcat9/web.xml</webXml>   
-          <source>1.8</source>
-          <target>1.8</target>
+   			<release>11</release>
         </configuration>
       </plugin>
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
         <version>3.2.3</version>
         <configuration>
+          <webXml>/etc/tomcat9/xeb.xml</webXml>
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
       </plugin>

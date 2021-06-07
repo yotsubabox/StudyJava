@@ -19,7 +19,7 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>3.2.3</version>
         <configuration>
-          <webXml>/etc/tomcat9/xeb.xml</webXml>
+          <webXml>/etc/tomcat9/web.xml</webXml>
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
       </plugin>
